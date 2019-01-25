@@ -5,7 +5,7 @@
 2. [Điều kiện tiên quyết](#Điều-kiện-tiên-quyết)
 3. [Các lỗi thường gặp](#Các-lỗi-thường-gặp)
 4. [Cách đăng ký tài khoản nhà phát triển](#Cách-đăng-ký-tài-khoản-nhà-phát-triển)
-5. [Cách đăng tải ứng dụng lên GooglePlay](#Cách-đăng-tải-ứng-dụng-lên-AppStore)
+5. [Cách đăng tải ứng dụng lên GooglePlay](#Cách-đăng-tải-ứng-dụng-lên-GooglePlay)
 6. [Nguồn tham khảo](#Nguồn-tham-khảo)
 
 ## Giới thiệu
