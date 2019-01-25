@@ -5,6 +5,8 @@
 2. [Điều kiện tiên quyết](#Điều-kiện-tiên-quyết)
 3. [Các lỗi thường gặp](#Các-lỗi-thường-gặp)
 4. [Cách đăng ký tài khoản nhà phát triển](#Cách-đăng-ký-tài-khoản-nhà-phát-triển)
+    * [Đối với chương trình bình thường](#Đối-với-chương-trình-bình-thường)
+    * [Đối với chương trình Enterprise](#Đối-với-chương-trình-Enterprise)
 5. [Cách đăng tải ứng dụng lên AppStore](#Cách-đăng-tải-ứng-dụng-lên-AppStore)
 6. [Nguồn tham khảo](#Nguồn-tham-khảo)
 
@@ -41,12 +43,14 @@ Sau đó đợi đại diện DNB tại Việt Nam gọi, hãy trả lời là �
 
 ## Điều kiện tiên quyết
 1. Có AppleID, nếu chưa có thì đăng ký [tại đây](https://appleid.apple.com/account#!&page=create). Điền đầy đủ thông tin chính xác, và bật _xác thực hai yếu tố_.
-2. Có thẻ VISA thừa hơn $300
+2. Có thẻ tín dụng thừa hơn $300
 
 ## Các lỗi thường gặp
 Người đứng tên đăng ký AppleID, thẻ VISA và tài khoản nhà phát triển của Apple nên là cùng một người, với đầy đủ họ tên (cả đệm nếu có). Vì khi tên người thay đổi sẽ tốn rất nhiều thời gian để gửi xác thực cho Apple.
 
 Nếu có vấn đề gì liên quan thì gửi trực tiếp email hoặc gọi cho Apple để được giải đáp. Thông tin liên hệ với Apple, xem [tại đây](https://developer.apple.com/contact/#!/topic/select).
+
+Ngoài ra, Apple chỉ chấp nhận 26 kí tự trong bảng Alphabet tiếng Anh, và các kí tự số từ 0 đến 9. Tuyệt đối không sử dụng kí tự Unicode (ê, â, ă...).
 
 ## Cách đăng ký tài khoản nhà phát triển
 ### Đối với chương trình bình thường
