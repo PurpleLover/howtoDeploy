@@ -10,4 +10,5 @@
 ## Lưu ý
 Những kiến thức chia sẻ tại đây được cóp nhặt từ nhiều nguồn và có phần kiểm chứng của bản thân. Tuy nhiên, nhà phát triển hệ điều hành Android (Google) hay iOS (Apple) liên tục đưa ra các bản cập nhật nên có thể nội dung trình bày tại đây có chỗ nào đấy không sát với thực tế hiển thị.
 
-Các ghi chú hiện tại chỉ áp dụng cho đối tượng triển khai là **doanh nghiệp**.
+## Việc cần làm
+* Tạo chú thích trên ảnh
