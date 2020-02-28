@@ -111,7 +111,48 @@ Nếu không "Create Virtual Device..." được do thiếu "HAXM". Vào [trang 
 
 ### macOS
 
-Với macOS thì chạy được cả Android lẫn iOS.
+Với macOS thì chạy được cả Android lẫn iOS. Nhưng cài đặt các thứ nhanh gọn và dễ chịu hơn.
+
+#### 1. Cài đặt thành phần
+
+Đầu tiên, bạn phải cài đặt [`Homebrew`](https://brew.sh/) bằng cách dán lệnh sau vào Terminal: `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`.
+
+Sau đó, dùng homebrew để cài Node, Watchman, và Java Development Kit (JDK - để chạy Android).
+
+```
+brew install node
+brew install watchman
+brew tap AdoptOpenJDK/openjdk
+brew cask install adoptopenjdk8
+```
+
+#### 2. Cài đặt react-native-cli
+
+Mở terminal, gõ `npm i react-native-cli -g`.
+
+Sau đó mở Visual Studio Code lên, tạo folder muốn lưu và gõ `react-native init AwesomeProject`. Đến đây là có project rồi đấy.
+
+#### 3. Thiết lập môi trường chạy iOS
+
+Vào App Store, chọn cài đặt XCode. Bạn có thể sẽ phải điền tài khoản Apple của mình, nếu chưa có thì cứ tạo một cái thôi (miễn phí cả).
+
+Sau đó mở project đã khởi tạo trong folder ios của project mới tạo. Và build.
+
+#### 4. Thiết lập môi trường chạy Android
+
+Các bước làm gần như tương tự với Windows, chỉ khác phần chỉnh đường dẫn (Path).
+
+Thêm đoạn sau vào file `$HOME/.bash_profile` hoặc `$HOME/.bashrc`
+
+```
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+```
+
+Các bước để chạy project tương tự như bên Windows
 
 ## Cách thức code
 
